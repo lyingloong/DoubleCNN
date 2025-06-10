@@ -140,6 +140,10 @@ if __name__ == '__main__':
     # TimeXer
     parser.add_argument('--patch_len', type=int, default=16, help='patch length')
 
+    # DoubleCNN.py
+    parser.add_argument('--dCNN_mode', type=str, default='res', help='DoubleCNN mode')
+    parser.add_argument('--dCNN_use_norm', type=bool, default=True, help='use normalization layer in dCNN')
+
     args = parser.parse_args()
     if torch.cuda.is_available() and args.use_gpu:
         args.device = torch.device('cuda:{}'.format(args.gpu))

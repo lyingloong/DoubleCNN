@@ -127,7 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-/scripts/long_term_forecast/Traffic_script/PatchTST1.sh
+/scripts/multivarite_forecast/Traffic_script/PatchTST1.sh
 /backups/
 /result.xlsx
 /~$result.xlsx
@@ -145,8 +145,8 @@ dmypy.json
 /scripts/short_term_forecast/PatchTST_M4.sh
 /run_tv.py
 
-/scripts/long_term_forecast/ETT_tv_script/
-/dataset/
+/scripts/multivarite_forecast/ETT_tv_script/
+#/dataset/
 /data/
 data_factory_all.py
 data_loader_all.py
